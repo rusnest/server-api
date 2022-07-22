@@ -1,0 +1,31 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "web so sanh",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.6.4",
+    "body-parser": "^1.20.0",
+    "chromedriver": "^102.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.1.0",
+    "geckodriver": "^3.0.1",
+    "graphql": "^16.3.0",
+    "mongoose": "^6.2.7",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "selenium-webdriver": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/selenium-webdriver": "^4.0.18",
+    "nodemon": "^2.0.15"
+  }
+}
