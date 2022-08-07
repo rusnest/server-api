@@ -8,7 +8,5 @@ module.exports = function (app) {
   app.route('/shopee/cmt').get(crawlController.crawlShopeeCmt);
   app.route('/tgdd').get(crawlController.crawlTGDD);
   app.route('/tgdd/cmt').get(crawlController.crawlTGDDComment);
-  app.route('/tgdd/info').get(crawlController.tgddGetInfo);
-  app.route('/nguyenkim').get(crawlController.crawlNguyenKim);
 };
 

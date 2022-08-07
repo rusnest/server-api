@@ -10,10 +10,7 @@ app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-// const mongoose = require('mongoose');
-// mongoose.Promise = global.Promise;
-// mongoose.connect("mongodb://localhost/CrawlSendo");
-const route = require('./api/routes/CrawlRoute.js');
+const route = require('./api/routes/index.js');
 route(app);
 
 app.use(function (req, res) {
